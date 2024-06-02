@@ -1,12 +1,4 @@
-// Функция для создания кнопки
-function createButton(text) {
-    var button = document.createElement('button');
-    button.innerHTML = text; // Устанавливаем текст на кнопке
-    button.onclick = function() {
-        alert('Вы нажали на кнопку!');
-    };
-    return button;
-}
+
 
 // Функция для сохранения созданных кнопок в локальном хранилище
 function saveButtonsToLocalStorage() {
